@@ -1,5 +1,5 @@
 # kmeansimageclustering
-Clusters colors in an image using k means. Written in python 3.
+Clusters colors in an image using k means. Written in Python 3.
 
 Takes an image in ppm format, returns another ppm image with only a given number of colors.
 Examples of input and output are shown below.
@@ -27,7 +27,7 @@ Here is the image after clustering to 6 colors:
 2. Using Python 3, run the file `run_k_means.py`
 3. The image path will be asked for as console input. The image must be in .ppm format.
 4. The next console input will be for how many different colors the output should image have. This is the number of clusters.
-5. The final input will be the path of the output file.
+5. The final console input will be the path of the output file.
 
 Modules needed: random
 
