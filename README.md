@@ -2,15 +2,25 @@
 Clusters colors in an image using k means. Written in python 3.
 
 Takes an image in ppm format, returns another ppm image with only a given number of colors.
-Examples of input and output are shown.
+Examples of input and output are shown below.
 
+
+#### Files
 image_utils.py contains the functions for opening and saving ppm images.
 
 k_means.py contains functions for k means clustering.
 
 run_k_means.py contains the main function for taking an input image and saving a new image.
 
+
+#### Image Credits
 Southeast_Steam_Plant-University_of_Minnesota.ppm is used under the Creative Commons Attribution 2.0 Generic License. See https://en.wikipedia.org/wiki/File:Southeast_Steam_Plant-University_of_Minnesota.jpg for more information. I chose this as I thought it would be a difficult image for the algorithm.
+
+# Example
+Here is the starting image:
+![Starting image](example_images/Southeast_Steam_Plant-University_of_Minnesota.jpg)
+Here is the image after clustering to 6 colors:
+![Clustered image](example_images/output.jpg)
 
 # How to use
 1. Download/clone/etc the repository
